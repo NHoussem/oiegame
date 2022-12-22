@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" styleClass="pll" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WindowimgController">
+   <children>
+      <Button fx:id="button1" layoutX="141.0" layoutY="126.0" mnemonicParsing="false" onAction="#giveid" prefHeight="200.0" prefWidth="200.0">
+         <graphic>
+            <ImageView fx:id="Image1" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="button2" layoutX="415.0" layoutY="126.0" mnemonicParsing="false" onAction="#giveid" prefHeight="200.0" prefWidth="200.0">
+         <graphic>
+            <ImageView fx:id="Image2" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="button3" layoutX="141.0" layoutY="350.0" mnemonicParsing="false" onAction="#giveid" prefHeight="200.0" prefWidth="200.0">
+         <graphic>
+            <ImageView fx:id="Image3" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="button4" layoutX="415.0" layoutY="350.0" mnemonicParsing="false" onAction="#giveid" prefHeight="200.0" prefWidth="200.0">
+         <graphic>
+            <ImageView fx:id="Image4" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Button fx:id="Submit" layoutX="350.0" layoutY="634.0" mnemonicParsing="false" text="Submit" />
+      <Text fx:id="resulttext" layoutX="358.0" layoutY="612.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="165.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the right image" textAlignment="CENTER">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <Text fx:id="Textimg" layoutX="366.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
