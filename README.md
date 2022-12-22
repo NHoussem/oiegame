@@ -1,4 +1,4 @@
-OIegame est une appilication permettant à l'utilisateur d'apprendre des mots de la langue anglaise à travers un jeu de dès que nous concevons comme une variante du jeu de l'oie.Il s'agit d'un jeu de société  qi à l'origine se joue avec deux dès sur un plateau de 63 cases disposées en spirale enroulée vers l'intérieur.
+Oiegame est une appilication permettant à l'utilisateur d'apprendre des mots de la langue anglaise à travers un jeu de dès que nous concevons comme une variante du jeu de l'oie.Il s'agit d'un jeu de société  qi à l'origine se joue avec deux dès sur un plateau de 63 cases disposées en spirale enroulée vers l'intérieur.
 Dans notre jeu, le plateau est composé de 100 cases numérotées et disposées en spiralte.Plusieurs utilisateurs peuvent jouer mais nous supposons qu'une partie n'est jouée que par un seul joueur à la fois.Chaque joueur est caractérisé par son nom et le meuilleure score qui'il a atteint .
 Un plateau est constitué par des cases :
 1-Case de départ : a paratir de laquelle commence le jeu.Elle est de oculeur jaune
